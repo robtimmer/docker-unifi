@@ -5,7 +5,7 @@ FROM debian:jessie
 # FROM debian:jessie-slim
   # NOT WORKING. seems to cause issues when installing openjdk when update-alternatives tries to link a man page and breaks just because man pages are not installed. `--force-all` might work arround it, but that's a hack... :-/
 
-MAINTAINER Jacob Alberty <jacob.alberty@foundigital.com>
+MAINTAINER Rob Timmer <rob@robtimmer.com>
 
 ENV DEBIAN_FRONTEND noninteractive \
   container=docker
